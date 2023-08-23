@@ -1,0 +1,318 @@
+.{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(162, 68, 124);
+}
+.body{
+    width: 100%;
+    overscroll-behavior: none;
+    height: 100vh;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(173, 69, 146);
+}
+.navbar{
+    width: 1300px;
+    margin: auto;
+    height: 80px;
+    background-color: rgb(153, 75, 125);
+}
+.icon{
+    margin: 0px;
+    padding: 0px;
+    height: 70px;
+    float: left;
+    width: 200px;
+}
+.logo{
+    height: 80px;
+    width: 150px;
+    padding-left: 0px;
+    margin-left: 0px;
+    color: orangered;
+    font-size: 28px;
+    font-family: monospace;
+    padding-left: 0.5px;
+    padding-left: 0px;
+    padding-right: 300px;
+    float: left;
+}
+.menu{
+    float: right;
+    width: 400px;
+    height: 70px;
+    margin-right: 60px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    border-bottom: none;
+}
+ul li{
+    float: right;
+    position: relative;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 27px;
+    list-style: none;
+}
+ul li a{
+    transition:0.4s ease-in-out ;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(59, 0, 41);
+    text-decoration: none;
+}
+ul li a:hover{
+    color:orangered;
+}
+.drop_menu{
+    display: block;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: rgb(162, 68, 124);
+    overflow: none;
+    color: blueviolet;
+}
+.ul{
+    display: block;
+    position: relative;
+    left: 10px;
+    top: 25px;
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 150px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    margin-top: 20px;
+    color: transparent;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    background: orangered;
+    border: 1px solid orangered;
+    margin-top: 13px;
+    color: rgb(12, 59, 101);
+    font-size: 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    margin: 0px;
+    padding: 10px;
+    padding-left: 0px;
+    font-weight: bold;
+    color: orangered;
+    position: absolute;
+    padding-top: 200px;
+    padding-bottom: 90px;
+}
+.banner{
+    margin-left: 20px;
+}
+span{
+    position: relative;
+    flex-direction: column;
+    color: rgb(3, 3, 7);
+    left: 10px;
+    top: -370px;
+    font-style: italic;
+    font-size: 20px;
+}
+.h{
+    text-align: end;
+    justify-items: normal;
+}
+p{
+    font-size: 15px;
+    color: rgb(2, 2, 3);
+    font-style: italic;
+    top: -80px;
+    font-size: 24px;
+    margin-top: 0px;
+}
+p2{
+    padding-top: 50px;
+    margin-top: 16px;
+    font-style: italic;
+    display: block;
+    margin-left: 112px;
+    color: rgb(62, 70, 145);
+}
+p4{
+    font-size: 20px;
+    padding-left: 420px;
+    color: blue;
+    justify-content: center;
+    margin-bottom: -159px;
+    display: block;
+}
+p5{
+    font-size: 20px;
+    padding-left: 420px;
+    margin-top: 50px;
+    color: blue;
+    justify-content: center;
+    font-style: normal;
+    font-weight: bold;
+}
+.liw{
+    font-size: 15px;
+    color: rgb(2, 2, 3);
+    font-style: italic;
+    top: -80px;
+    font-size: 24px;
+
+}
+button{
+    height: 40px;
+    width: 90px;
+    cursor: pointer;
+    background-color: rgb(27, 95, 137);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 9px;
+    margin-left: 20px;
+    font-size: 19px;
+}
+a{
+    transition: 3 ease;
+    text-decoration: none;
+    color: blue;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    position: absolute;
+    top: 150px;
+    left: 1040px;
+    text-align: center;
+    background-color: rgb(172, 173, 179);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: rgb(71, 26, 95);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgb(41, 64, 22);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: aliceblue;
+    font-family: arial;
+}
+.btn:hover{
+    background-color: rgb(43, 96, 142);
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: arial;
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+    cursor: pointer;
+}
+.liw{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20Px;
+    text-align: center;
+}
+.form .link a:hover{
+    color: orangered;
+    cursor: pointer;
+    color: #000;
+}
+.icon a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.icon ion-icon{
+    font-size: 30px;
+    padding-left: 14px;
+    color: blueviolet;
+}
+.icon ion-icon:hover{
+    color: blueviolet;
+}
+.drop_menu{
+    display: block;
+    position: absolute;
+    right: 250;
+    top: 5%;
+    background: transparent;
+}
+.drop_menu ul{
+    display: block;
+    margin: 10px;
+}
+.drop_menu li{
+    display: block;
+    width: 50px;
+    padding: 10px;
+}
+@media(max-width 750px){
+    .main{
+        width: 100%;
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(logo.png);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .navbar{
+        width: 1200%;
+        height: 75%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,62 @@
+.{
+    margin: 0;
+}
+.sign-up-form{
+    width: 300px;
+    background-position: center;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    margin: 8% auto 0;
+    text-align: center;
+    background-color: #fff;
+    border: 2px;
+    padding: 20px;
+    top: 20px;
+    margin-top: 5px;
+    
+}
+h1{
+    margin-bottom: 30px;
+    color: #1c8adb;
+}
+.input-box{
+    border-radius: 20px;
+    width: 100%;
+    border: 1PX solid;
+    margin: 10px 0;
+    padding: 10;
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.signup-btn{
+   background-color: #1c8adb; 
+}
+.twitter button{
+    background-color: #21afde;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    margin: -19px auto 10px;
+    width: 30px;
+    background-color: #fff;
+}
+.img{
+    width: 70px;
+    margin-top: -50px;
+}
+.icon{
+    padding: 10px;
+    margin: 10px;
+}
+

@@ -1,0 +1,32 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 250px;
+    width: 200px;
+    border: 2px;
+    display: flex;
+    float: inline-start;
+    flex-direction: row;
+    padding: 20px;
+.imgslide 1{
+    align-items: baseline;
+    float: left;
+    align-items: center;
+    background-color: brown;
+}
+.imgslide2{
+    padding-left: 20px;
+    padding: 30px;
+}
+.box2{
+    height: 250px;
+    width: 200px;
+    border: 2px;
+    display: flex;
+    float: right;
+    flex-direction: column;
+    margin-left: 60px;
+    padding: 20px;
+}
